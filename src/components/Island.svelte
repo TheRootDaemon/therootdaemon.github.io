@@ -40,7 +40,7 @@
     ];
 </script>
 
-<section class="social-handles">
+<section class="flex flex-row justify-center">
     {#each handles as handle}
         <a
             href={handle.link}

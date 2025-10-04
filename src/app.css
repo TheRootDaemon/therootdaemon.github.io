@@ -1,6 +1,25 @@
 @import "tailwindcss";
 
+html,
+body {
+    color: #e0def4;
+    background-color: #232136;
+}
+
 :root {
-    font-family:
-        Poppins, Outfit, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+@theme {
+    --font-mono: "Cascadia Code";
+    --font-outfit: Outfit;
+    --font-vt323: "VT323";
+    --shadow-color: 250 244 237;
+    --shadow-transparensy: 0.5;
+    --shadow-blur: 16px;
+}
+
+.hack-shadow {
+    text-shadow: 0 0 var(--shadow-blur)
+        rgb(var(--shadow-color) / var(--shadow-transparensy));
 }

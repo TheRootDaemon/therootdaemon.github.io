@@ -1,13 +1,16 @@
-<section class="hero">
-    <div><p id="whoami">Hello World ! I'm Harsha</p></div>
-    <div id="man">
-        <p>Developer, obsessed with clean workflows and cleaner code.</p>
-    </div>
-    <div id="daemon"><p>Oh, let’s talk about Root Daemons...</p></div>
-    <div id="desc">
-        <p>Root Daemons are Privileged processes running in the Shadows...</p>
-        <p>
-            Those Daemons has Absolute Powers of course with Responsibilities...
-        </p>
+<section class="flex justify-center items-center h-screen px-4">
+    <div class="flex flex-col justify-center items-center hack-shadow w-full">
+        <h1
+            class="flex-grow flex-shrink font-mono font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl drop-shadow-lg"
+        >
+            Harshavardhan (<span class="font-vt323 font-extrabold"
+                >TheRootDaemon</span
+            >)
+        </h1>
+        <h2
+            class="flex-grow flex-shrink font-mono font-bold text-xl sm:text-xl md:text-2xl lg:text-3xl drop-shadow-lg"
+        >
+            Developer, obsessed with clean workflows and cleaner code.
+        </h2>
     </div>
 </section>
