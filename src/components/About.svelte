@@ -1,33 +1,28 @@
 <section
-    class="flex justify-center items-center px-4 py-12 text-[var(--color)]"
+    class="flex flex-col justify-center items-center flex-grow flex-shrink px-4 py-12 text-[var(--color)] w-full sm:w-5/6 md:w-3/4 lg:w-1/2 xl:w-[45%] 2xl:w-[40%]"
 >
-    <div class="max-w-xl space-y-6 font-mono text-justify">
+    <div class="w-full max-w-2xl space-y-6 font-mono text-justify">
         <p class="text-base sm:text-lg md:text-xl font-bold drop-shadow-lg">
-            Trying to be a better nerd every day. I love Linux and yes, I use
-            Arch by the way.
+            Developer, obsessed with clean workflows and cleaner code.
         </p>
         <p class="text-base sm:text-lg md:text-xl font-bold drop-shadow-lg">
-            Here are my <a
-                href="https://github.com/Therootdaemon/dotfiles"
-                target="_blank"
-                class="underline hack-shadow"
-                >dotfiles
-            </a>, made with pure nerd vibes. It was a great experience to code
-            them up ahh, those endless bugs, endless tantrums of “why doesn't it
-            work?” But the outcome was worth it.
+            I hope to turn this space into something beautiful. A place where I
+            can share my ideas and works. Also, here are my
+            <a
+                href="https://github.com/TheRootDaemon/dotfiles"
+                class="underline text-[var(--palette-mauve)] hack-shadow"
+                target="_blank">dotfiles</a
+            >, which I truly enjoyed building. Honestly, I don’t think I’ll ever
+            stop improving them.
         </p>
         <p class="text-base sm:text-lg md:text-xl font-bold drop-shadow-lg">
-            I strive to do the same in my life: live fully, gain knowledge, and
-            have fun ! I hope to turn this place more beautiful someday.
-        </p>
-        <p class="text-base sm:text-lg md:text-xl font-bold drop-shadow-lg">
-            Oh, let’s talk about Root Daemons. They are privileged processes
-            running in the shadows… Those Daemons have absolute powers, of
-            course, with responsibilities kinda like me :)
+            Oh, let’s talk about Root Daemons. They’re privileged processes
+            running in the shadows… Those Daemons have absolute power—of course,
+            with responsibilities kinda like me :)
         </p>
         <p class="text-base sm:text-lg md:text-xl font-bold drop-shadow-lg">
             Beyond the terminal, I love cooking, playing badminton, working out,
-            and being lazy sometimes.
+            and being lazy occasionally (definitely more than occasionally).
         </p>
     </div>
 </section>

@@ -7,6 +7,9 @@ body {
 }
 
 :root {
+    --fg-dawn: #e0def4;
+    --bg-moon: #232136;
+    --palette-mauve: #cba6f7;
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
@@ -22,4 +25,8 @@ body {
 .hack-shadow {
     text-shadow: 0 0 var(--shadow-blur)
         rgb(var(--shadow-color) / var(--shadow-transparensy));
+    filter: drop-shadow(
+        0 0 var(--shadow-blur)
+            rgb(var(--shadow-color) / var(--shadow-transparensy))
+    );
 }
