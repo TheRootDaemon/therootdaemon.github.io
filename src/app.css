@@ -7,14 +7,16 @@ body {
 }
 
 :root {
-    --fg-dawn: #e0def4;
-    --bg-moon: #232136;
-    --palette-mauve: #cba6f7;
+    --dawn: #e0def4;
+    --moon: #232136;
+    --mauve: #cba6f7;
+    --teal: #94e2d5;
+    --half-moon: #393552;
     font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
 
 @theme {
-    --font-mono: "Cascadia Code";
+    --font-mono: "JetBrains Mono";
     --font-outfit: Outfit;
     --font-vt323: "VT323";
     --shadow-color: 250 244 237;
@@ -29,4 +31,23 @@ body {
         0 0 var(--shadow-blur)
             rgb(var(--shadow-color) / var(--shadow-transparensy))
     );
+}
+
+@keyframes float {
+    0%,
+    100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-6px) rotate(0.5deg);
+    }
+}
+.island-float {
+    animation: float 6s ease-in-out infinite;
+}
+
+@media (max-width: 640px) {
+    .island-float {
+        gap: 0.5rem;
+    }
 }
