@@ -3,16 +3,18 @@
 html,
 body {
     color: #e0def4;
-    background-color: #232136;
+    background-color: #191724;
 }
 
 :root {
     --dawn: #e0def4;
-    --moon: #232136;
-    --mauve: #cba6f7;
+    --moon: #191724;
+    --foam: #9ccfd8;
+    --pine: #31748f;
+    --iris: #c4a7e7;
     --teal: #94e2d5;
-    --half-moon: #393552;
-    font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+    --surface: #1f1d2e;
+    font-family: "JetBrains Mono", monospace;
 }
 
 @theme {
@@ -25,23 +27,22 @@ body {
 }
 
 .hack-shadow {
-    text-shadow: 0 0 var(--shadow-blur)
-        rgb(var(--shadow-color) / var(--shadow-transparensy));
-    filter: drop-shadow(
-        0 0 var(--shadow-blur)
-            rgb(var(--shadow-color) / var(--shadow-transparensy))
-    );
+    text-shadow: 0 0 var(--shadow-blur) rgb(var(--shadow-color) / var(--shadow-transparensy));
+    filter: drop-shadow(0 0 var(--shadow-blur) rgb(var(--shadow-color) / var(--shadow-transparensy)));
 }
 
 @keyframes float {
+
     0%,
     100% {
         transform: translateY(0) rotate(0deg);
     }
+
     50% {
         transform: translateY(-6px) rotate(0.5deg);
     }
 }
+
 .island-float {
     animation: float 6s ease-in-out infinite;
 }

@@ -10,15 +10,15 @@
             can share my ideas and works. Also, here are my
             <a
                 href="https://github.com/TheRootDaemon/dotfiles"
-                class="underline text-(--mauve) hack-shadow"
+                class="underline text-(--iris) hack-shadow"
                 target="_blank">dotfiles</a
             >, which I truly enjoyed building. Honestly, I don’t think I’ll ever
             stop improving them.
         </p>
         <p class="text-base sm:text-lg md:text-xl drop-shadow-lg">
             Oh, let’s talk about Root Daemons. They’re privileged processes
-            running in the shadows… Those Daemons have absolute power—of course,
-            with responsibilities kinda like me :)
+            running in the shadows... Those Daemons have absolute power—of
+            course, with responsibilities kinda like me :)
         </p>
         <p class="text-base sm:text-lg md:text-xl drop-shadow-lg">
             Beyond the terminal, I love cooking, playing badminton, working out,
