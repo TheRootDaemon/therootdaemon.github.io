@@ -27,12 +27,15 @@ body {
 }
 
 .hack-shadow {
-    text-shadow: 0 0 var(--shadow-blur) rgb(var(--shadow-color) / var(--shadow-transparensy));
-    filter: drop-shadow(0 0 var(--shadow-blur) rgb(var(--shadow-color) / var(--shadow-transparensy)));
+    text-shadow: 0 0 var(--shadow-blur)
+        rgb(var(--shadow-color) / var(--shadow-transparensy));
+    filter: drop-shadow(
+        0 0 var(--shadow-blur)
+            rgb(var(--shadow-color) / var(--shadow-transparensy))
+    );
 }
 
 @keyframes float {
-
     0%,
     100% {
         transform: translateY(0) rotate(0deg);
