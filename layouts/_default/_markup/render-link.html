@@ -1,0 +1,5 @@
+{{- with .Title -}}
+<a class="hyperlink" href="{{ $.Destination | safeURL }}" title="{{ . }}">{{ $.Text | safeHTML }}</a>
+{{- else -}}
+<a class="hyperlink" href="{{ .Destination | safeURL }}">{{ .Text | safeHTML }}</a>
+{{- end -}}

@@ -14,11 +14,25 @@
     {{ block "main" . }}{{ end }}
     <footer class="site-footer">
         <div class="footer-inner">
-            <a class="hyperlink" href="/">@TheRootDaemon</a>
+            {{ if .IsHome }}
+            <span class="handle">@TheRootDaemon</span>
+            {{ else }}
+            <a class="handle" href="/">@TheRootDaemon</a>
+            {{ end }}
             <nav class="footer-nav" aria-label="Footer">
-                <a class="hyperlink" href="/blog/">Blog</a>
-                <a class="hyperlink" href="/books/">Books</a>
-                <a class="hyperlink" href="/works/">Works</a>
+                {{ if eq .Section "blog" }}
+                <span class="handle">Blog</span>
+                {{ else }}
+                <a class="handle" href="/blog/">Blog</a>
+                {{ end }} {{ if eq .Section "books" }}
+                <span class="handle">Books</span>
+                {{ else }}
+                <a class="handle" href="/books/">Books</a>
+                {{ end }} {{ if eq .Section "works" }}
+                <span class="handle">Works</span>
+                {{ else }}
+                <a class="handle" href="/works/">Works</a>
+                {{ end }}
             </nav>
         </div>
     </footer>
