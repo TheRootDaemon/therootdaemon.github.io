@@ -1,0 +1,4 @@
+baseURL = "https://therootdaemon.github.io/"
+locale = "en-us"
+title = "Harshavardhan (@TheRootDaemon)"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
