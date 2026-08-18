@@ -183,7 +183,7 @@ body {
     width: 100%;
     max-width: 42rem;
     margin: 0 auto;
-    padding: 4rem 1.5rem;
+    padding: 4rem 1.5rem 8rem;
     flex: 1;
 }
 
@@ -192,7 +192,24 @@ body {
 }
 
 .site-footer {
-    padding: 1.5rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: 1rem 1.5rem;
+    background: var(--color-base);
+}
+
+.site-footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 100%;
+    height: 1.25rem;
+    background: linear-gradient(to bottom, transparent, var(--color-base));
+    pointer-events: none;
 }
 
 .footer-inner {
