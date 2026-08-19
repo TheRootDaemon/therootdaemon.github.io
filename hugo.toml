@@ -1,0 +1,8 @@
+baseURL = "https://therootdaemon.github.io/"
+locale = "en-us"
+title = "Harshavardhan (TheRootDaemon), a developer obsessed with clean workflows and cleaner code."
+enableGitInfo = true
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[markup.goldmark.renderer]
+unsafe = true

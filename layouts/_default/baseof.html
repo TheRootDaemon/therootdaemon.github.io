@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{{ .Title }}</title>
+    {{ with resources.Get "css/main.css" | minify | fingerprint }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" />
+    {{ end }}
+</head>
+
+<body>
+    {{ block "main" . }}{{ end }}
+    <footer class="site-footer">
+        <div class="footer-inner">
+            {{ if .IsHome }}
+            <span class="handle" style="font-style: italic"> TheRootDaemon </span>
+            {{ else }}
+            <a class="handle" style="font-style: italic" href="/">
+                TheRootDaemon
+            </a>
+            {{ end }}
+            <nav class="footer-nav" aria-label="Footer">
+                {{ if and (eq .Section "blog") .IsSection }}
+                <span class="handle">Blog</span>
+                {{ else }}
+                <a class="handle" href="/blog/">Blog</a>
+                {{ end }} {{ if and (eq .Section "books") .IsSection }}
+                <span class="handle">Books</span>
+                {{ else }}
+                <a class="handle" href="/books/">Books</a>
+                {{ end }} {{ if and (eq .Section "works") .IsSection }}
+                <span class="handle">Works</span>
+                {{ else }}
+                <a class="handle" href="/works/">Works</a>
+                {{ end }}
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

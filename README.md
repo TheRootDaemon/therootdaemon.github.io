@@ -1,4 +1,3 @@
-### To do:
+# therootdaemon.github.io
 
-- Actually build stuff.
-- It is empty.
+My personal website, built with [Hugo](https://gohugo.io)

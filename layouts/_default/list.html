@@ -1,0 +1,12 @@
+{{ define "main" }}
+<main class="container">
+    {{ with .Parent }}
+    <a class="back" href="{{ .RelPermalink }}"><- <i>{{ if .IsHome }}Home{{ else }}{{ .Title }}{{ end }}</i></a>
+    {{ end }}
+    <h1 class="page-title">{{ .Title }}</h1>
+    {{ with .Lastmod }}
+    <p style="font-style: italic" class="meta">last edited {{ .Format "Jan 2, 2006" }}</p>
+    {{ end }}
+    {{ .Content }}
+</main>
+{{ end }}
