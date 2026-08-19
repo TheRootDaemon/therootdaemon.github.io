@@ -24,15 +24,15 @@
             </a>
             {{ end }}
             <nav class="footer-nav" aria-label="Footer">
-                {{ if eq .Section "blog" }}
+                {{ if and (eq .Section "blog") .IsSection }}
                 <span class="handle">Blog</span>
                 {{ else }}
                 <a class="handle" href="/blog/">Blog</a>
-                {{ end }} {{ if eq .Section "books" }}
+                {{ end }} {{ if and (eq .Section "books") .IsSection }}
                 <span class="handle">Books</span>
                 {{ else }}
                 <a class="handle" href="/books/">Books</a>
-                {{ end }} {{ if eq .Section "works" }}
+                {{ end }} {{ if and (eq .Section "works") .IsSection }}
                 <span class="handle">Works</span>
                 {{ else }}
                 <a class="handle" href="/works/">Works</a>

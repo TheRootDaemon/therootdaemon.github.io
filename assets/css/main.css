@@ -191,6 +191,44 @@ body {
     margin-top: 1rem;
 }
 
+.page-title {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    letter-spacing: -0.01em;
+    margin-bottom: 0.5rem;
+}
+
+.meta {
+    color: var(--color-muted);
+    font-size: 0.95rem;
+}
+
+.page-body {
+    margin-top: 1.5rem;
+}
+
+.page-body p+p {
+    margin-top: 1rem;
+}
+
+.container ul,
+.container ol {
+    padding-left: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.container li {
+    padding-left: 0.25rem;
+}
+
+.container li + li {
+    margin-top: 0.35rem;
+}
+
+.container li p {
+    margin: 0;
+}
+
 .site-footer {
     position: fixed;
     bottom: 0;
@@ -235,8 +273,6 @@ body {
     font-weight: 600;
     color: var(--color-foam);
     text-decoration: none;
-    text-shadow: 0 0 48px rgb(255 255 255 / 0.85);
-    filter: drop-shadow(0 0 24px rgb(255 255 255 / 0.5));
     transition: color 0.2s ease;
 }
 

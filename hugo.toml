@@ -1,4 +1,8 @@
 baseURL = "https://therootdaemon.github.io/"
 locale = "en-us"
 title = "Harshavardhan (@TheRootDaemon)"
+enableGitInfo = true
 disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[markup.goldmark.renderer]
+unsafe = true
