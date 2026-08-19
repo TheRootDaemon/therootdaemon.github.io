@@ -197,6 +197,21 @@ body {
     margin-bottom: 0.5rem;
 }
 
+.back {
+    display: inline-block;
+    color: var(--color-muted);
+    font-size: 0.95rem;
+    text-decoration: none;
+    margin-bottom: 1rem;
+    transition: color 0.2s ease;
+}
+
+.back:hover,
+.back:focus-visible {
+    color: var(--color-gold);
+    outline: none;
+}
+
 .meta {
     color: var(--color-muted);
     font-size: 0.95rem;

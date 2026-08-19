@@ -1,3 +1,7 @@
 {{ define "main" }}
-<main class="container">{{ .Content }}</main>
+<main class="container">
+    {{ with .Parent }}
+    <a class="back" href="{{ .RelPermalink }}"><- <i>{{ if .IsHome }}Home{{ else }}{{ .Title }}{{ end }}</i></a>
+    {{ end }} {{ .Content }}
+</main>
 {{ end }}
