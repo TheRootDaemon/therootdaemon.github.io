@@ -1,5 +1,6 @@
+{{- $ext := or (strings.HasPrefix .Destination "http://") (strings.HasPrefix .Destination "https://") -}}
 {{- with .Title -}}
-<a class="hyperlink" href="{{ $.Destination | safeURL }}" title="{{ . }}">{{ $.Text | safeHTML }}</a>
+<a class="hyperlink" href="{{ $.Destination | safeURL }}" title="{{ . }}"{{ if $ext }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ $.Text | safeHTML }}</a>
 {{- else -}}
-<a class="hyperlink" href="{{ .Destination | safeURL }}">{{ .Text | safeHTML }}</a>
+<a class="hyperlink" href="{{ .Destination | safeURL }}"{{ if $ext }} target="_blank" rel="noopener noreferrer"{{ end }}>{{ .Text | safeHTML }}</a>
 {{- end -}}
