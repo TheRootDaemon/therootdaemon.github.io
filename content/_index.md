@@ -1,5 +1,5 @@
 +++
-title = "Harshavardhan (@TheRootDaemon), a developer obsessed with clean workflows and cleaner code."
+title = "Harshavardhan (TheRootDaemon), a developer obsessed with clean workflows and cleaner code."
 +++
 
 ## About me
