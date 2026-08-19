@@ -165,7 +165,7 @@ body {
     background: var(--color-base);
     color: var(--color-text);
     font-family: "Maple Mono", ui-monospace, monospace;
-    font-size: 1rem;
+    font-size: 1.1rem;
     line-height: 1.6;
     font-feature-settings:
         "cv01" 1,
@@ -181,7 +181,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 42rem;
+    max-width: 52rem;
     margin: 0 auto;
     padding: 4rem 1.5rem 8rem;
     flex: 1;
@@ -244,6 +244,23 @@ body {
     margin: 0;
 }
 
+.handles {
+    display: flex;
+    justify-content: center;
+}
+
+.handles p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0;
+}
+
+.handles p+p {
+    margin-top: 0;
+}
+
 .site-footer {
     position: fixed;
     bottom: 0;
@@ -279,6 +296,16 @@ body {
     display: flex;
     flex-wrap: wrap;
     gap: 1.5rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 1px solid var(--color-highlight-med);
+    box-shadow: 0 0 24px rgb(196 167 231 / 0.15);
 }
 
 .hyperlink {
