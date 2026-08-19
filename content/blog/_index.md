@@ -2,8 +2,6 @@
 title = "Blog"
 +++
 
-# Blog
-
 <br>
 
 Nothing here yet :)

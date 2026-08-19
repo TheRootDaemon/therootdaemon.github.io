@@ -2,8 +2,6 @@
 title = "Books"
 +++
 
-# Books
-
 <br>
 
 I haven't read a huge number of books,<br>
