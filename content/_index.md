@@ -12,26 +12,19 @@ I primarily write [Go](https://go.dev), mostly working on backend software
 I'm quite proud of. For my **_work and career_**, I'm on [LinkedIn](https://www.linkedin.com/in/therootdaemon/).
 
 I _really hope_ to turn this space into something thoughtful and beautiful.
-A _nice, simple_ space where I can share the thing I build, the silly things I find,
-and the things I find intriguing.
+A _nice, simple_ space where I can share the things I **_build_**, the silly things I **_find intriguing_**.
 
 Feel free to reach out, these are my usual handles.
 
-<br>
-
-<div class="handles">
-
-[Email](mailto:harsha.manjula.venkataramanan@gmail.com)
-[GitHub](https://github.com/TheRootDaemon)
-[LinkedIn](https://linkedin.com/in/therootdaemon)
-[Instagram](https://instagram.com/therootdaemon)
+[Email](mailto:harsha.manjula.venkataramanan@gmail.com) .
+[GitHub](https://github.com/TheRootDaemon) .
+[LinkedIn](https://linkedin.com/in/therootdaemon) .
+[Instagram](https://instagram.com/therootdaemon) .
 [Twitter](https://x.com/therootdaemon)
 
-</div>
-
 <br>
 
-## The Litle Details
+## The Little Details
 
 <br>
 
@@ -47,7 +40,7 @@ My [dotfiles](https://github.com/TheRootDaemon/dotfiles) are a good example of t
 They started as a way to _manage_ my **_development environment_** and
 gradually became something I genuinely enjoy maintaining.
 
-Looking back, it might've been the time why I came to love being a **_Software Engineer_** !
+Looking back, it might've been the time why I came to love with **_programming_** !
 
 <br>
 
@@ -55,10 +48,13 @@ Looking back, it might've been the time why I came to love being a **_Software E
 
 <br>
 
-And if you ever wondered about the name **_Root Daemon_**,
-a [daemon](<https://en.wikipedia.org/wiki/Daemon_(computing)>) is a process that runs in the quietly in the background,
-while [root](https://en.wikipedia.org/wiki/Superuser) refers to the **_Super User_** that is,
-the most privileged user on a Unix system. Hence **_The Root Daemon_**, something with a lot of importance
+And if you ever wondered about the name **_Root Daemon_**:
+
+- A [daemon](<https://en.wikipedia.org/wiki/Daemon_(computing)>) is a process that runs in the quietly in the background.
+- While [root](https://en.wikipedia.org/wiki/Superuser) refers to the **_Super User_** that is,
+  the most privileged user on a Unix system.
+
+Hence **_The Root Daemon_**, something with a lot of importance
 running quietly in the background.
 
 <br>

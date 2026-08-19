@@ -161,6 +161,16 @@ html {
     color-scheme: dark;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-style: italic;
+    color: var(--color-iris);
+}
+
 body {
     background: var(--color-base);
     color: var(--color-text);
@@ -333,7 +343,7 @@ span.hyperlink {
 .handle {
     position: relative;
     display: inline-block;
-    color: var(--color-rose);
+    color: var(--color-iris);
     font-size: 1rem;
     font-weight: 600;
     text-decoration: none;
