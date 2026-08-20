@@ -18,8 +18,8 @@ body {
     background: var(--color-base);
     color: var(--color-text);
     font-family: "Maple Mono", ui-monospace, monospace;
-    font-size: 1.1rem;
-    line-height: 1.6;
+    font-size: clamp(0.95rem, 0.75rem + 0.7vw, 1.1rem);
+    line-height: clamp(1.5, 1.45 + 0.1vw, 1.6);
     font-feature-settings:
         "cv01" 1,
         "cv35" 1,
