@@ -142,3 +142,18 @@ span.handle {
 .handle:focus-visible {
     outline: none;
 }
+
+.heading-link {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.2s ease;
+}
+
+.heading-link:hover,
+.heading-link:focus-visible {
+    text-decoration-color: currentColor;
+    outline: none;
+}
