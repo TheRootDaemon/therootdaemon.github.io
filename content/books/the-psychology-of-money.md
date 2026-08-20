@@ -29,4 +29,4 @@ Uhmm, as for the part where they talked about the
 well, I was too dumb to perceive that :)
 
 And finally, I read this **_really nice book_** which my colleague was kind enough to lend me.
-What a **_steal_** !
+What a **_steal_**!

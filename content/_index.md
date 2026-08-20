@@ -40,7 +40,7 @@ My [dotfiles](https://github.com/TheRootDaemon/dotfiles) are a good example of t
 They started as a way to _manage_ my **_development environment_** and
 gradually became something I genuinely enjoy maintaining.
 
-Looking back, it might've been the time why I came to love with **_programming_** !
+Looking back, it might've been the time why I came to love with **_programming_**!
 
 <br>
 
@@ -52,7 +52,7 @@ As for the rest of my time, I enjoy **_cooking_**, playing **_table tennis_**, *
 **_working out_**, and **_being lazy_** occasionally (**_definitely more than occasionally_**).
 
 Also I read _books_. I've started keeping [track of books]({{< relref "books" >}}) I've read,
-so I can look back and see how that **_compounds_** over time !
+so I can look back and see how that **_compounds_** over time!
 
 <br>
 

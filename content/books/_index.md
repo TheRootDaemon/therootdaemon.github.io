@@ -7,7 +7,7 @@ title = "Books"
 I haven't read a huge number of books,<br>
 but I'd like to keep track of them here.
 
-And see how things grow over time !
+And see how things grow over time!
 
 <br>
 
