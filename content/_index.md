@@ -44,21 +44,6 @@ Looking back, it might've been the time why I came to love with **_programming_*
 
 <br>
 
-## The Root Daemon
-
-<br>
-
-And if you ever wondered about the name **_Root Daemon_**:
-
-- A [daemon](<https://en.wikipedia.org/wiki/Daemon_(computing)>) is a process that runs in the quietly in the background.
-- While [root](https://en.wikipedia.org/wiki/Superuser) refers to the **_Super User_** that is,
-  the most privileged user on a Unix system.
-
-Hence **_The Root Daemon_**, something with a lot of importance
-running quietly in the background.
-
-<br>
-
 ## A Few other things
 
 <br>
@@ -70,3 +55,12 @@ Also I read _books_. I've started keeping [track of books]({{< relref "books" >}
 so I can look back and see how that **_compounds_** over time !
 
 <br>
+
+> And if you ever wondered about the name **_Root Daemon_**:
+>
+> - A [daemon](<https://en.wikipedia.org/wiki/Daemon_(computing)>) is a process that runs in the quietly in the background.
+> - While [root](https://en.wikipedia.org/wiki/Superuser) refers to the **_Super User_** ie.,
+>   the most privileged user on a Unix system.
+>
+> Hence **_The Root Daemon_**, something with a lot of importance
+> running quietly in the background.

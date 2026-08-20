@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-style: italic;
+    color: var(--color-iris);
+}
+
+body {
+    background: var(--color-base);
+    color: var(--color-text);
+    font-family: "Maple Mono", ui-monospace, monospace;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    font-feature-settings:
+        "cv01" 1,
+        "cv35" 1,
+        "ss01" 1,
+        "ss04" 1,
+        "ss05" 1;
+    font-variant-ligatures: common-ligatures;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 100%;
+    max-width: 52rem;
+    margin: 0 auto;
+    padding: 4rem 1.5rem 8rem;
+    flex: 1;
+}
+
+.container p+p {
+    margin-top: 1rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 12px;
+    border: 1px solid var(--color-highlight-med);
+    box-shadow: 0 0 24px rgb(196 167 231 / 0.15);
+}
