@@ -6,3 +6,9 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
 
 [markup.goldmark.renderer]
 unsafe = true
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+style = "github-dark"
+wrapperClass = "highlight"

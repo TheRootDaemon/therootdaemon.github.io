@@ -1,0 +1,101 @@
+.container .highlight {
+    margin: 1.5rem 0;
+    border-radius: 12px;
+    border: 1px solid var(--color-highlight-med);
+    overflow-x: auto;
+    background: var(--color-surface);
+}
+
+.container .chroma {
+    padding: 1rem 1.25rem;
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: var(--color-text);
+    font-family: "Maple Mono", ui-monospace, monospace;
+    font-feature-settings:
+        "cv01" 1,
+        "cv35" 1,
+        "ss01" 1,
+        "ss04" 1,
+        "ss05" 1;
+    font-variant-ligatures: common-ligatures;
+}
+
+.chroma .c,
+.chroma .c1,
+.chroma .cm,
+.chroma .cs,
+.chroma .cp {
+    color: var(--color-subtle);
+    font-style: italic;
+}
+
+.chroma .k,
+.chroma .kd,
+.chroma .kn,
+.chroma .kr,
+.chroma .kc {
+    color: var(--color-pine);
+}
+
+.chroma .kt {
+    color: var(--color-foam);
+    font-style: normal;
+}
+
+.chroma .s,
+.chroma .s1,
+.chroma .s2,
+.chroma .sb,
+.chroma .sr,
+.chroma .sc,
+.chroma .sd {
+    color: var(--color-gold);
+}
+
+.chroma .o,
+.chroma .ow,
+.chroma .p,
+.chroma .se {
+    color: var(--color-subtle);
+}
+
+.chroma .n,
+.chroma .na {
+    color: var(--color-foam);
+    font-style: italic;
+}
+
+.chroma .nx {
+    color: var(--color-text);
+    font-style: italic;
+}
+
+.chroma .nf,
+.chroma .nk {
+    color: var(--color-rose);
+    font-style: normal;
+}
+
+.chroma .nb {
+    color: var(--color-rose);
+    font-weight: 700;
+    font-style: normal;
+}
+
+.chroma .m,
+.chroma .mi,
+.chroma .mf,
+.chroma .mh,
+.chroma .mo {
+    color: var(--color-gold);
+}
+
+.chroma .kc {
+    color: var(--color-gold);
+}
+
+.chroma .err,
+.chroma .gr {
+    color: var(--color-love);
+}
