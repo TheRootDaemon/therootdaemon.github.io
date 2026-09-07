@@ -28,6 +28,22 @@
     margin-top: 1.5rem;
 }
 
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5em;
+    margin-top: 1rem;
+}
+
+.tag {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: var(--color-love);
+    background: var(--color-highlight-med);
+    border-radius: 999px;
+    padding: 0.15em 0.6em;
+}
+
 :not(pre)>code {
     font-family: "Maple Mono", ui-monospace, monospace;
     font-size: 0.9em;

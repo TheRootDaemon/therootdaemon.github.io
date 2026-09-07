@@ -1,6 +1,6 @@
 +++
 title = "Cases versus Invariants"
-description = "How I wrote diabolical code using case-based approach, then made it simple and less diabolical using invariant-based reasoning"
+description = "How I wrote diabolical code using case-based approach, then made it simple and elegant using invariant-based reasoning"
 tags = [
     "algorithms",
     "problem-solving",
@@ -306,4 +306,4 @@ But this is where i encountered the **day and night** experience.
 
 I hope you experienced that **_Is that it?_** moment too.
 
-> You will not write **_simple, elegant code_** unless you've written some **_diabolical ones_**.
+And **_finally_**, you definitely won't write **_simple, elegant code_** unless you've written some **_diabolical ones_** first.
