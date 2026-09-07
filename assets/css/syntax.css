@@ -9,6 +9,7 @@
 .container .chroma {
     padding: 1rem 1.25rem;
     font-size: 0.9rem;
+    tab-size: 4;
     line-height: 1.6;
     color: var(--color-text);
     font-family: "Maple Mono", ui-monospace, monospace;
@@ -68,7 +69,6 @@
 
 .chroma .nx {
     color: var(--color-text);
-    font-style: italic;
 }
 
 .chroma .nf,

@@ -28,6 +28,17 @@
     margin-top: 1.5rem;
 }
 
+:not(pre)>code {
+    font-family: "Maple Mono", ui-monospace, monospace;
+    font-size: 0.9em;
+    line-height: 1;
+    font-style: italic;
+    color: var(--color-gold);
+    background: var(--color-highlight-low);
+    border-radius: 6px;
+    padding: 0.04em 0.25em;
+}
+
 .page-body p+p {
     margin-top: 1rem;
 }
