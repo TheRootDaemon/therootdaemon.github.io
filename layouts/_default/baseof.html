@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    {{ block "main" . }}{{ end }}
     <footer class="site-footer">
         <div class="footer-inner">
             {{ if .IsHome }}
@@ -23,7 +22,7 @@
                 TheRootDaemon
             </a>
             {{ end }}
-            <nav class="footer-nav" aria-label="Footer">
+            <nav class="footer-nav" aria-label="Main">
                 {{ if and (eq .Section "blog") .IsSection }}
                 <span class="handle">Blog</span>
                 {{ else }}
@@ -40,6 +39,7 @@
             </nav>
         </div>
     </footer>
+    {{ block "main" . }}{{ end }}
 </body>
 
 </html>

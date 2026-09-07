@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+html,
+body {
+    overscroll-behavior-y: none;
+}
+
 h1,
 h2,
 h3,
@@ -33,11 +38,31 @@ body {
 }
 
 .container {
+    position: relative;
     width: 100%;
-    max-width: 56rem;
+    max-width: 64rem;
     margin: 0 auto;
-    padding: 4rem 1.5rem 8rem;
+    padding: 2rem 4rem 4rem;
     flex: 1;
+}
+
+.container::before,
+.container::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: var(--color-highlight-med);
+    pointer-events: none;
+}
+
+.container::before {
+    left: 0;
+}
+
+.container::after {
+    right: 0;
 }
 
 .container p+p {
