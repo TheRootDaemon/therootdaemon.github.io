@@ -27,16 +27,16 @@ body {
         "ss04" 1,
         "ss05" 1;
     font-variant-ligatures: common-ligatures;
-    min-height: 100vh;
+    min-height: calc(100vh + 1px);
     display: flex;
     flex-direction: column;
 }
 
 .container {
     width: 100%;
-    max-width: 52rem;
+    max-width: 64rem;
     margin: 0 auto;
-    padding: 4rem 1.5rem 8rem;
+    padding: 2rem 4rem 4rem;
     flex: 1;
 }
 
@@ -51,5 +51,4 @@ img {
     margin: 0 auto;
     border-radius: 12px;
     border: 1px solid var(--color-highlight-med);
-    box-shadow: 0 0 24px rgb(196 167 231 / 0.15);
 }

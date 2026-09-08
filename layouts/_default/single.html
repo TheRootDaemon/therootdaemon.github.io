@@ -4,12 +4,18 @@
     <a class="back" href="{{ .RelPermalink }}"><- <i>{{ if .IsHome }}Home{{ else }}{{ .Title }}{{ end }}</i></a>
     {{ end }}
     <h1 class="page-title">{{ .Title }}</h1>
-    {{ with .Params.author }}
+    {{ if eq .Section "blog" }} {{ with .Params.description }}
+    <p style="font-style: italic" class="meta">{{ . }}</p>
+    {{ end }} {{ end }} {{ with .Params.author }}
     <p style="font-style: italic" class="meta">by {{ . }}</p>
     {{ end }} {{ with .Lastmod }}
     <p style="font-style: italic" class="meta">
         last edited {{ .Format "Jan 2, 2006" }}
     </p>
+    {{ end }} {{ if and (eq .Section "blog") .Params.tags }}
+    <div class="tags">
+        {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+    </div>
     {{ end }}
     <div class="page-body">{{ .Content }}</div>
 </main>
