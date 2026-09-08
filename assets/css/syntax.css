@@ -22,6 +22,10 @@
     font-variant-ligatures: common-ligatures;
 }
 
+.chroma code {
+    font-family: inherit;
+}
+
 .chroma .c,
 .chroma .c1,
 .chroma .cm,

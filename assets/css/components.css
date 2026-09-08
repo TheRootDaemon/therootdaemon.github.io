@@ -101,18 +101,8 @@
     width: 100%;
     max-width: 64rem;
     margin: 0 auto;
-    padding: 1rem 4rem;
+    padding: 1rem var(--content-pad);
     background-color: var(--color-base);
-}
-
-.site-footer::after {
-    content: "";
-    position: absolute;
-    left: 4rem;
-    right: 4rem;
-    top: 0;
-    border-bottom: 3px dashed var(--color-highlight-med);
-    pointer-events: none;
 }
 
 .footer-inner {
@@ -123,6 +113,8 @@
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    border-top: 3px dashed var(--color-highlight-med);
+    padding-top: 0.75rem;
 }
 
 .footer-nav {

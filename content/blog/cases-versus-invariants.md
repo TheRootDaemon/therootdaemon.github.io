@@ -293,7 +293,7 @@ func (this *MedianFinder) AddNum(num int) {
 
 Honestly I don't think you need any more explanation than this.
 
-Can you see the difference it is literally **_night and day_**!
+Can you see the difference? It is literally **_night and day_**!
 
 <br>
 
@@ -302,7 +302,7 @@ Can you see the difference it is literally **_night and day_**!
 <br>
 
 And, sorry if I chose a relatively confusing, hard example for this.
-But this is where i encountered the **day and night** experience.
+But this is where I encountered the **day and night** experience.
 
 I hope you experienced that **_Is that it?_** moment too.
 

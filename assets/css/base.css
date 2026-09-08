@@ -1,3 +1,7 @@
+:root {
+    --content-pad: clamp(1rem, 3vw, 4rem);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,7 +40,7 @@ body {
     width: 100%;
     max-width: 64rem;
     margin: 0 auto;
-    padding: 2rem 4rem 4rem;
+    padding: clamp(2rem, 2vw, 3rem) var(--content-pad) clamp(2rem, 4vw, 4rem);
     flex: 1;
 }
 
