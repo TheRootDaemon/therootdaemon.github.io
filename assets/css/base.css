@@ -21,15 +21,12 @@ h6 {
 body {
     background: var(--color-base);
     color: var(--color-text);
-    font-family: "Maple Mono", ui-monospace, monospace;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
     font-size: clamp(0.95rem, 0.75rem + 0.7vw, 1.1rem);
     line-height: clamp(1.5, 1.45 + 0.1vw, 1.6);
     font-feature-settings:
-        "cv01" 1,
-        "cv35" 1,
-        "ss01" 1,
-        "ss04" 1,
-        "ss05" 1;
+        "zero" 1,
+        "ss19" 1;
     font-variant-ligatures: common-ligatures;
     min-height: calc(100vh + 1px);
     display: flex;

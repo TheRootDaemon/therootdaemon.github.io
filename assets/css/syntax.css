@@ -12,13 +12,10 @@
     tab-size: 4;
     line-height: 1.6;
     color: var(--color-text);
-    font-family: "Maple Mono", ui-monospace, monospace;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
     font-feature-settings:
-        "cv01" 1,
-        "cv35" 1,
-        "ss01" 1,
-        "ss04" 1,
-        "ss05" 1;
+        "zero" 1,
+        "ss19" 1;
     font-variant-ligatures: common-ligatures;
 }
 
