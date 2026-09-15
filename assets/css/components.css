@@ -88,7 +88,7 @@
 .container blockquote::before {
     content: "Note:";
     display: block;
-    font-weight: 800;
+    font-weight: 700;
     font-style: italic;
     color: var(--color-love);
     margin-bottom: 0.35rem;
@@ -127,7 +127,7 @@
     position: relative;
     display: inline-block;
     font-style: italic;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--color-foam);
     text-decoration: underline;
     text-decoration-thickness: 1px;
