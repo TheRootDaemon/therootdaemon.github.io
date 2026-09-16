@@ -1,3 +1,35 @@
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/JetBrainsMono-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: italic;
+    font-weight: 400;
+    font-display: swap;
+    src: url("/fonts/JetBrainsMono-Italic.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/fonts/JetBrainsMono-Bold.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "JetBrains Mono";
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url("/fonts/JetBrainsMono-BoldItalic.woff2") format("woff2");
+}
+
 :root {
     --content-pad: clamp(1rem, 3vw, 4rem);
 }
@@ -22,7 +54,7 @@ body {
     background: var(--color-base);
     color: var(--color-text);
     font-family: "JetBrains Mono", ui-monospace, monospace;
-    font-size: clamp(0.95rem, 0.75rem + 0.7vw, 1.1rem);
+    font-size: clamp(1.05rem, 0.85rem + 0.7vw, 1.2rem);
     line-height: clamp(1.5, 1.45 + 0.1vw, 1.6);
     font-feature-settings:
         "zero" 1,
@@ -35,7 +67,7 @@ body {
 
 .container {
     width: 100%;
-    max-width: 64rem;
+    max-width: 68rem;
     margin: 0 auto;
     padding: clamp(2rem, 2vw, 3rem) var(--content-pad) clamp(2rem, 4vw, 4rem);
     flex: 1;

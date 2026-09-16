@@ -99,7 +99,7 @@
     bottom: 0;
     z-index: 100;
     width: 100%;
-    max-width: 64rem;
+    max-width: 68rem;
     margin: 0 auto;
     padding: 1rem var(--content-pad);
     background-color: var(--color-base);
