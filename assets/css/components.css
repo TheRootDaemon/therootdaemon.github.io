@@ -45,7 +45,7 @@
 }
 
 :not(pre)>code {
-    font-family: "Maple Mono", ui-monospace, monospace;
+    font-family: "JetBrains Mono", ui-monospace, monospace;
     font-size: 0.9em;
     line-height: 1;
     font-style: italic;
@@ -53,6 +53,48 @@
     background: var(--color-highlight-low);
     border-radius: 6px;
     padding: 0.04em 0.25em;
+}
+
+.container table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+    margin: 1.5rem 0;
+}
+
+.container th {
+    height: 2.75rem;
+    padding: 0 1rem;
+    text-align: left;
+    vertical-align: middle;
+    font-weight: 700;
+    color: var(--color-iris);
+    border-bottom: 1px solid var(--color-highlight-med);
+}
+
+.container td {
+    padding: 0.75rem 1rem;
+    vertical-align: middle;
+    border-bottom: 1px solid var(--color-highlight-low);
+}
+
+.container tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.container tr:last-child {
+    border-top: 1px solid var(--color-highlight-med);
+    background: var(--color-highlight-low);
+    font-weight: 700;
+}
+
+.container tr:last-child td:last-child {
+    color: var(--color-love);
+}
+
+.container th:last-child,
+.container td:last-child {
+    text-align: right;
 }
 
 .page-body p+p {
@@ -88,7 +130,7 @@
 .container blockquote::before {
     content: "Note:";
     display: block;
-    font-weight: 800;
+    font-weight: 700;
     font-style: italic;
     color: var(--color-love);
     margin-bottom: 0.35rem;
@@ -99,7 +141,7 @@
     bottom: 0;
     z-index: 100;
     width: 100%;
-    max-width: 64rem;
+    max-width: 68rem;
     margin: 0 auto;
     padding: 1rem var(--content-pad);
     background-color: var(--color-base);
@@ -127,7 +169,7 @@
     position: relative;
     display: inline-block;
     font-style: italic;
-    font-weight: 800;
+    font-weight: 700;
     color: var(--color-foam);
     text-decoration: underline;
     text-decoration-thickness: 1px;

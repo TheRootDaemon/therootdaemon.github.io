@@ -28,17 +28,23 @@ Feel free to reach out, these are my usual handles.
 
 <br>
 
-I also enjoy spending my time on the little details.
-
-<br>
-
-![dotfiles](dotfiles.png)
-
-<br>
+I also enjoy spending my time on the little details. Here's a little sneak peak.
 
 My [dotfiles](https://github.com/TheRootDaemon/dotfiles) are a good example of that.
 They started as a way to _manage_ my **_development environment_** and
-gradually became something I genuinely enjoy maintaining.
+gradually became something I genuinely enjoy maintaining, here's a little sneak peak.
+
+<br>
+
+![dotfiles](/dotfiles.png)
+
+<br>
+
+And that eventually led me to [NixOS](https://nixos.org),
+where I manage my system **_declaratively_**.
+
+You can find my nixos configuration [here](https://github.com/TheRootDaemon/nixos).
+I was on **_cloud nine_** when I found that I can integrate my **_dotfiles_** directly through **_nix_**.
 
 Looking back, it might've been the time why I came to love with **_programming_**!
 
